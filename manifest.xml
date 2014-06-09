@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote
+        name        = "yoctoproject"
+        fetch       = "git://git.yoctoproject.org/"
+    />
+    <remote
+        name        = "architech-boards"
+        fetch       = "https://github.com/architech-boards/"
+    />
+
+    <project
+        name        = "poky"
+        remote      = "yoctoproject"
+        revision    = "b626e109e83384558f45dc2e30e7caec677ce1db"
+    />
+    <project
+        name        = "meta-ti"
+        remote      = "yoctoproject"
+        revision    = "ceb91a69d1b647a8d35874f3ad2bc7c03063b92c"
+    />
+    <project
+        name        = "meta-pengwyn"
+        remote      = "architech-boards"
+        revision    = "dora"
+    />
+</manifest>
