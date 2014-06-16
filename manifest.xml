@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote
+        name        = "openembedded"
+        fetch       = "git://git.openembedded.org/"
+    />
+    <remote
         name        = "yoctoproject"
         fetch       = "git://git.yoctoproject.org/"
     />
@@ -13,6 +17,11 @@
         name        = "poky"
         remote      = "yoctoproject"
         revision    = "b626e109e83384558f45dc2e30e7caec677ce1db"
+    />
+    <project
+        name        = "meta-openembedded"
+        remote      = "openembedded"
+        revision    = "ee173678383683e972c7d4d6f0ef5790bfa50274"
     />
     <project
         name        = "meta-ti"
