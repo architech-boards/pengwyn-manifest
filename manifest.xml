@@ -16,21 +16,21 @@
     <project
         name        = "poky"
         remote      = "yoctoproject"
-        revision    = "b626e109e83384558f45dc2e30e7caec677ce1db"
+        revision    = "016d607e23e2f4e0cd3c6c76bebe482651d56e7a"
     />
     <project
         name        = "meta-openembedded"
         remote      = "openembedded"
-        revision    = "ee173678383683e972c7d4d6f0ef5790bfa50274"
+        revision    = "6413cdb66acf43059f94d0076ec9b8ad6a475b35"
     />
     <project
         name        = "meta-ti"
         remote      = "yoctoproject"
-        revision    = "ceb91a69d1b647a8d35874f3ad2bc7c03063b92c"
+        revision    = "56ea9223d7a3d3da38dd4fef10b4dfeb0667992d"
     />
     <project
         name        = "meta-pengwyn"
         remote      = "architech-boards"
-        revision    = "dora"
+        revision    = "dizzy"
     />
 </manifest>
